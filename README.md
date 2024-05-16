@@ -2,5 +2,4 @@
 # Compilação no Windows
 # Pré-Requisitos
 # Requisitos
-# 
-\text[sdwfsfsfsfsfs]
+antes de dar inicio
