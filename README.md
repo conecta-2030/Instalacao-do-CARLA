@@ -21,9 +21,22 @@ Caso precise de mais informação tem o [Documento do CARLA](https://carla.readt
 # Primeiro Passo: Pré-Requisitos
 
 <br/>
+<br/>
+<br/>
 
 # Requisitos do Sistema
+
+<br/>
+<br/>
+<br/>
+
 # Requisitos do Software
+
+<br/>
+<br/>
+<br/>
+<br/>
+
 # Primeiras Instalações
 <br/>
 <br/>
