@@ -5,7 +5,7 @@ O processo de instalação leva em torno de (4 horas ou mais) por isso é intere
 <br/>
 Caso precise de mais informação tem o [Documento do CARLA](https://carla.readthedocs.io/en/0.9.15/build_windows/) que pode ajudar, porém aqui será adicionado algumas informações que não possui na documentação, caso possua algum erro de instalação terá o tópico falando a respeito.
 
-  - [Pré-Requisitos](https://github.com/conecta-2030/Instalacao-do-CARLA/edit/main/README.md#pr%C3%A9-requisitos)
+  - [Pré-Requisitos](https://github.com/conecta-2030/Instalacao-do-CARLA/main/README.md#pr%C3%A9-requisitos)
   - Requisitos
   - 
 
