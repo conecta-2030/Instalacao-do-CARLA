@@ -7,7 +7,7 @@ Caso precise de mais informação tem o [Documento do CARLA](https://carla.readt
 
 - [Primeiro Passo: Pré-Requisitos](#primeiro-passo-pr%C3%A9-requisitos)
   - [Requisitos do Sistema](#requisitos-do-sistema)
-  - [Requisitos do Software](#requisitos)
+  - [Requisitos do Software](#requisitos-do-software)
   - 
 
 <br/>
