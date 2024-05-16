@@ -5,6 +5,8 @@ O processo de instalação leva em torno de (4 horas ou mais) por isso é intere
 <br/>
 Caso precise de mais informação tem o [Documento do CARLA](https://carla.readthedocs.io/en/0.9.15/build_windows/) que pode ajudar, porém aqui será adicionado algumas informações que não possui na documentação, caso possua algum erro de instalação terá o tópico falando a respeito.
 
+<br/>
+
 - [Primeiro Passo: Pré-Requisitos](#primeiro-passo-pr%C3%A9-requisitos)
   - [Requisitos do Sistema](#requisitos-do-sistema)
   - [Requisitos do Software](#requisitos-do-software)
@@ -18,17 +20,16 @@ Caso precise de mais informação tem o [Documento do CARLA](https://carla.readt
 <br/>
 <br/>
 
+#
 # Primeiro Passo: Pré-Requisitos
-
-<br/>
-<br/>
-<br/>
+Nessa processo vai ser instalados pequenos softwares e essenciais para o sistema e as principais dependencias do Python, sendo necessárias antes de contruir o CARLA.<br/>
 
 # Requisitos do Sistema
 
+Aqui será mostrado quais os requisitos precisam ter em sua máquina:<br/>
 <br/>
-<br/>
-<br/>
+**- sistema x64:** O simulador precisa executar em qualquer Windows com 64 bits.<br/>
+**- 170 GB de disco livre:** .
 
 # Requisitos do Software
 
@@ -38,6 +39,7 @@ Caso precise de mais informação tem o [Documento do CARLA](https://carla.readt
 <br/>
 
 # Primeiras Instalações
+
 <br/>
 <br/>
 <br/>
