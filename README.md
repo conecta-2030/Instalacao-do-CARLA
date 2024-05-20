@@ -14,6 +14,7 @@ Caso precise de mais informação tem o [Documento do CARLA](https://carla.readt
     - [Dependências do Python](#depend%C3%AAncias-do-python)
     - [Principais Instalações](#principais-instala%C3%A7%C3%B5es)
       - [Visual Studio 2019](#visual-studio-2019)
+      - [Unreal Engine](#unreal-engine)
 
 <br/>
 <br/>
@@ -63,10 +64,11 @@ Sendo preciso intalar algumas dependências do Python:
 
 Será preciso ter a versão do Visual Studio 2019, pois as versões antigas podem conflitar com versões do CARLA 0.9.12 ou superior. Clique [aqui](https://developerinsider.co/download-visual-studio-2019-web-installer-iso-community-professional-enterprise/) para acessar o site oficial, e escolha a versão **Comunidade** que seria a gratuita. E utilize o instalador do Visual Studio para instalar 3 elementos importantes:
 
-
-
 - **SDK Windows 8.1 ou Superior** Selecione essa opção na parte de *Detalhes da Instalação* ou até mesmo vá em *Componentes Individuais* e procure a opção de *SDKs, bibliotecas e estruturas*. No nosso caso utilizamos o **Windows 11**, e selecionamos todos os **SDKs Windows 10 e 11**, para não ocorrer algum erro na instalação.
-- 
+- **X64 Conjunto de ferramentas do Visual C++**. Na sessão de *Cargas de Trabalho*, escolha **Desenvolvimento de área de trabalho com C++**. Com isso será habilitado um prompt comando x64 usado para a compilação. Veja com atenção se foi instalado o correto, tome cuidado para não abrir o **<code>x86_x64</code></li>**. <code>Windows</code></li><code>x64</code></li>
+- **.NET Framework 4.6.2**. La na sesão *Cargas de trabalho*, selecione **.NET desktop development** e em *Painel de instalação*, esse processo será essencial para contruir o Unreal Engine.<code>.NET Framework 4.6.2 development tools</code></li>
+
+# Unreal Engine
 
 
 
