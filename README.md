@@ -58,7 +58,7 @@ Sendo preciso intalar algumas dependências do Python:
     pip3 install --user wheel
 
 # Principais Instalações
-# Visual Studio 2019
+## Visual Studio 2019
 
 Será preciso ter a versão do Visual Studio 2019, pois as versões antigas podem conflitar com versões do CARLA 0.9.12 ou superior. Clique [aqui](https://developerinsider.co/download-visual-studio-2019-web-installer-iso-community-professional-enterprise/) para acessar o site oficial, e escolha a versão **Comunidade** que seria a gratuita. E utilize o instalador do Visual Studio para instalar 3 elementos importantes:
 
