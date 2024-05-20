@@ -63,3 +63,11 @@ Sendo preciso intalar algumas dependências do Python:
 Será preciso ter a versão do Visual Studio 2019, pois as versões antigas podem conflitar com versões do CARLA 0.9.12 ou superior. Clique [aqui](https://developerinsider.co/download-visual-studio-2019-web-installer-iso-community-professional-enterprise/) para acessar o site oficial, e escolha a versão **Comunidade** que seria a gratuita. E utilize o instalador do Visual Studio para instalar 3 elementos importantes:
 
 
+
+- **SDK Windows 8.1 ou Superior** Selecione essa opção na parte de *Detalhes da Instalação* ou até mesmo vá em *Componentes Individuais* e procure a opção de *SDKs, bibliotecas e estruturas*. No nosso caso utilizamos o **Windows 11**, e selecionamos todos os **SDKs Windows 10 e 11**, para não ocorrer algum erro na instalação.
+- 
+
+
+
+
+
