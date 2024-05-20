@@ -12,7 +12,7 @@ Caso precise de mais informação tem o [Documento do CARLA](https://carla.readt
   - [Requisitos do Software](#requisitos-do-software-)
     - [Primeiras Instalações](#primeiras-instala%C3%A7%C3%B5es)
     - [Dependências do Python](#depend%C3%AAncias-do-python)
-      - [Visual Studio 2019]()
+      - [Visual Studio 2019](#visual-studio-2019)
 
 <br/>
 <br/>
