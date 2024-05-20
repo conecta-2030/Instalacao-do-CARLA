@@ -12,9 +12,8 @@ Caso precise de mais informação tem o [Documento do CARLA](https://carla.readt
   - [Requisitos do Software](#requisitos-do-software-)
     - [Primeiras Instalações](#primeiras-instala%C3%A7%C3%B5es)
     - [Dependências do Python](#depend%C3%AAncias-do-python)
+      - [Visual Studio 2019]()
 
-<br/>
-<br/>
 <br/>
 <br/>
 <br/>
@@ -45,7 +44,7 @@ Essa parte seria interessanter possuir os  softwares adequados instalados em seu
 - [Python3 x64:](https://www.python.org/downloads/) seria a principal linguagém de scripts do CARLA. Instale a versão x64, pois ter a versão x32 pode dar conflito e ocorrer erros, então é aconselhável desinstalar. 
 
 ## Dependências do Python
-Apartir de algumas versões, pode ser instalado o PythonAPI no CARLA, como as versões do CARLA 0.9.12 ou superior, é preciso ter atualização do pip tendo uma verção mais atualizado acima da 20.3. Para verificar se possui essa versão adequada, utilize o seguinte comando:
+Apartir de algumas versões, pode ser instalado o PythonAPI no CARLA, como as versões do CARLA 0.9.12 ou superior, é preciso ter atualização do *pip* tendo uma verção mais atualizado acima da 20.3. Para verificar se possui essa versão adequada, utilize o seguinte comando:
 
     pip3 -V
 
@@ -58,6 +57,9 @@ Sendo preciso intalar algumas dependências do Python:
     pip3 install --user setuptools
     pip3 install --user wheel
 
+# Principais Instalações
+# Visual Studio 2019
 
+Será preciso ter a versão do Visual Studio 2019, pois as versões antigas podem conflitar com versões do CARLA 0.9.12 ou superior. Clique [aqui](https://developerinsider.co/download-visual-studio-2019-web-installer-iso-community-professional-enterprise/) para acessar o site oficial, e escolha a versão **Comunidade** que seria a gratuita. E utilize o instalador do Visual Studio para instalar 3 elementos importantes:
 
 
