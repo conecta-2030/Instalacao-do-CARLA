@@ -80,7 +80,7 @@ Para compilar a versão da Unreal Engine, utilize esse comando:
        git clone https://github.com/EpicGames/UnrealEngine.git
 
 Ou se precisar, utilize a versão da documentação, caso ocorra algum erro, entre no GitHub e pegue o link da versão da Unreal 4.26.2 e faça o mesmo precesso acima dando o **git clone**.
-
+Dentro do caminho da Unreal Engine você 
 
 
 
