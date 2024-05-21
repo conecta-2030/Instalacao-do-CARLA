@@ -71,17 +71,17 @@ Será preciso ter a versão do Visual Studio 2019, pois as versões antigas pode
 # Unreal Engine
 
 O CARLA apartir da versão 0.9.12 utiliza a versão da Unreal Engine 4.26, esse patch que seria uma forma de atualização melhorada, o CARLA ja possui esse sistema específico.
-Antes de começar o processo de baixar a UInreal, **é preciso ter uma conta vinculada ao GitHub da Unreal Engine**, caso tenha uma dúvida siga [esse guia](https://www.unrealengine.com/en-US/ue-on-github) antes de iniciar a instalação.
+Antes de começar o processo de baixar a Unreal, **é preciso ter uma conta vinculada ao GitHub da Unreal Engine**, caso tenha uma dúvida siga [esse guia](https://www.unrealengine.com/en-US/ue-on-github) antes de iniciar a instalação. E se precisar saber mais de tutorial, siga esse [vídeo tutorial](https://youtu.be/lLkFA0fPrgs?si=AOt2KZXg1B2QskRL).
 
 Para compilar a versão da Unreal Engine, utilize esse comando:
 
-1. Entre em um terminal e deixe no caminho sistema **C:\>**, e clone a Unreal no caminho desejado:
+1. Entre em um terminal e deixe no caminho sistema **C:\\>**, e clone a Unreal no caminho desejado:
 
        git clone https://github.com/EpicGames/UnrealEngine.git
 
 Ou se precisar, utilize a versão da documentação, caso ocorra algum erro, entre no GitHub e pegue o link da versão da Unreal 4.26.2 e faça o mesmo precesso acima dando o **git clone**.
-Dentro do caminho da Unreal Engine você 
 
+2. Dentro do caminho da Unreal Engine você vai precisar executar os scripts de configuração
 
 
 
