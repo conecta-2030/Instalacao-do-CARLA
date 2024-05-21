@@ -75,7 +75,7 @@ Antes de começar o processo de baixar a Unreal, **é preciso ter uma conta vinc
 
 Para compilar a versão da Unreal Engine, utilize esse comando:
 
-1. Entre em um terminal e deixe no caminho sistema **C:\\>**, e clone a Unreal no caminho desejado:
+1. Entre no **Prompt de Comando** e acesse o caminho do sistema **C:\\>**, e clone a Unreal neste caminho:
 
        git clone https://github.com/EpicGames/UnrealEngine.git
 
@@ -89,7 +89,7 @@ Ou se precisar, utilize a versão da documentação, caso ocorra algum erro, ent
 3. Despois desses passos terem sido concluido, na pasta raiz da Unreal abra no Visual Studio 2019 o arquivo <code>UE4.sln</code></li>
  ![Arquivo UE4.sln](https://cdn.discordapp.com/attachments/1135539100468924457/1242459395959296081/image.png?ex=664de9fb&is=664c987b&hm=77d1caa2311a73ea261d0ae0f6afd3f264d260040e9d89b12d846281c79d8e2c&)
 
-   1. Assim que abrir o Visual Studio, vai na aba de compilação e selecione as opções, '***Editor de Desenvolvimento***', '***Win64***' e '***UnrealBiuldTool***', tem que estar igual a imagem abaixo, se precisar de mais informações use esse [guia](https://dev.epicgames.com/documentation/en-us/unreal-engine/building-unreal-engine-from-source?application_version=5.4). <br/>
+  1. Assim que abrir o Visual Studio, vai na aba de compilação e selecione as opções, '***Editor de Desenvolvimento***', '***Win64***' e '***UnrealBiuldTool***', tem que estar igual a imagem abaixo, se precisar de mais informações use esse [guia](https://dev.epicgames.com/documentation/en-us/unreal-engine/building-unreal-engine-from-source?application_version=5.4). <br/>
    
   ![Compilação](https://cdn.discordapp.com/attachments/1135539100468924457/1242462898962436096/Captura_de_tela_2024-05-21_100241.png?ex=664ded3e&is=664c9bbe&hm=2d992cb8dd2fa6bfedea6da2ad00d235a36c4a6200a3605ecf958ecbca2df446&) 
 
