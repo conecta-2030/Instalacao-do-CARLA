@@ -81,7 +81,23 @@ Para compilar a versão da Unreal Engine, utilize esse comando:
 
 Ou se precisar, utilize a versão da documentação, caso ocorra algum erro, entre no GitHub e pegue o link da versão da Unreal 4.26.2 e faça o mesmo precesso acima dando o **git clone**.
 
-2. Dentro do caminho da Unreal Engine você vai precisar executar os scripts de configuração
+2. Dentro do caminho da Unreal Engine você vai precisar executar os scripts de configuração, então utilize esses comando no **Prompt de Comando** dentro da pasta *Unreal Engine*:
+
+       Setup.bat
+       GenerateProjectFiles.bat
+   
+3. Despois desses passos terem sido concluido, na pasta raiz da Unreal abra no Visual Studio 2019 o arquivo <code>UE4.sln</code></li>
+ ![Arquivo UE4.sln](https://cdn.discordapp.com/attachments/1135539100468924457/1242459395959296081/image.png?ex=664de9fb&is=664c987b&hm=77d1caa2311a73ea261d0ae0f6afd3f264d260040e9d89b12d846281c79d8e2c&)
+
+   1. Assim que abrir o Visual Studio, vai na aba de compilação e selecione as opções, ***Editor de Desenvolvimento***, ***Win64*** e ***UnrealBiuldTool***, tem que estar igual a imagem abaixo, se precisar de mais informações use esse [guia](https://dev.epicgames.com/documentation/en-us/unreal-engine/building-unreal-engine-from-source?application_version=5.4).<br/>
+![Compilação](https://cdn.discordapp.com/attachments/1135539100468924457/1242462898962436096/Captura_de_tela_2024-05-21_100241.png?ex=664ded3e&is=664c9bbe&hm=2d992cb8dd2fa6bfedea6da2ad00d235a36c4a6200a3605ecf958ecbca2df446&) 
+
+  2. No ***gerenciador de soluções*** clique com o botão direito em *UE4* e selecione *Biuld*, a imagem abaixo vai te mostrar caso tenha dúvidas.<br/>
+![Biuld](https://media.discordapp.net/attachments/1135539100468924457/1242462898597527623/image.png?ex=664ded3e&is=664c9bbe&hm=ba29420b90e825e5a04d06e874a6ebcedfa9f961c9397f8559f3e5161a71cd59&=&format=webp&quality=lossless&width=385&height=607)
+
+
+
+
 
 
 
