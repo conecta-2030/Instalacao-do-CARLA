@@ -93,11 +93,13 @@ Ou se precisar, utilize a versão da documentação, caso ocorra algum erro, ent
    
   ![Compilação](https://cdn.discordapp.com/attachments/1135539100468924457/1242462898962436096/Captura_de_tela_2024-05-21_100241.png?ex=664ded3e&is=664c9bbe&hm=2d992cb8dd2fa6bfedea6da2ad00d235a36c4a6200a3605ecf958ecbca2df446&) 
 
-  2. No ***gerenciador de soluções*** clique com o botão direito em *UE4* e selecione *Biuld*, a imagem abaixo vai te mostrar caso tenha dúvidas.<br/>
+  2. No ***gerenciador de soluções*** clique com o botão direito em *UE4* e selecione *Build*, a imagem abaixo vai te mostrar caso tenha dúvidas.<br/>
   ![Biuld](https://media.discordapp.net/attachments/1135539100468924457/1242462898597527623/image.png?ex=664ded3e&is=664c9bbe&hm=ba29420b90e825e5a04d06e874a6ebcedfa9f961c9397f8559f3e5161a71cd59&=&format=webp&quality=lossless&width=385&height=607)
 
   3. Assim que for compilado pela primeira vez, acesse a pasta **Unreal Engine** e procure pelo '*UE4Editor.exe*'. Caso não encontre siga esse caminho. <code>Engine\Binaries\Win64\UE4Editor.exe</code></li>
 
+[Repositório CARLA](https://github.com/carla-simulator/carla) |
+-------------------------------------------------------------|
 
 
 
