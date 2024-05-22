@@ -15,7 +15,8 @@ Caso precise de mais informação tem o [Documento do CARLA](https://carla.readt
     - [Principais Instalações](#principais-instala%C3%A7%C3%B5es)
       - [Visual Studio 2019](#visual-studio-2019)
       - [Unreal Engine](#unreal-engine)
-
+- [Segunda Passo: Construção do CARLA](#segunda-passo-constru%C3%A7%C3%A3o-do-carla)
+  
 <br/>
 <br/>
 <br/>
@@ -98,8 +99,16 @@ Ou se precisar, utilize a versão da documentação, caso ocorra algum erro, ent
 
   3. Assim que for compilado pela primeira vez, acesse a pasta **Unreal Engine** e procure pelo '*UE4Editor.exe*'. Caso não encontre siga esse caminho. <code>Engine\Binaries\Win64\UE4Editor.exe</code></li>
 
-[Repositório CARLA](https://github.com/carla-simulator/carla) |
--------------------------------------------------------------|
+|Importante
+:-------|
+Antes de dar inicio a segunda parte da instalção, é recomendado reiniciar o computador.
+
+<br/>
+
+# Segunda Passo: Construção do CARLA
+
+
+
 
 
 
