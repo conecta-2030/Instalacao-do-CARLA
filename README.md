@@ -120,7 +120,7 @@ Caso queira escolher sua versão do CARLA, clique nesse repositório acima e ter
 
 ![](https://cdn.discordapp.com/attachments/1135539100468924457/1243188609834553404/Captura_de_tela_2024-05-23_095207.png?ex=6650911d&is=664f3f9d&hm=2b2387641c870aea1c5543a593d7180196c53f6eb06847960ecc5909cb950412&)
 
-Na imagem acima mostra aonde você pode estar pegando o link e clonando o repositório, e clone em um terminal seguindo o mesmo caminho **C:\\>** utilizando o seguinte comando:
+Na imagem acima mostra aonde você pode estar pegando o link e clonando o repositório, e clone em um terminal seguindo o mesmo caminho **C:\\carla** utilizando o seguinte comando:
 
     git clone https://github.com/carla-simulator/carla.git
 
@@ -137,10 +137,21 @@ Esses ativos serão baixados e extraídos no local adequado se tiver o 7zip inst
 
 # Definição da variável de ambiente da Unreal Engine
 
+Essa parte seria muito importante, o CARLA precisa encontrar a pasta de instalação da Unreal Engine. E com isso permite qual a versão o usuário irá usar, se ele não encontra, se o CARLA não encontrar, ele vai procurar o Unreal Engine no registro do Windows e usará a primeira versão que aparecer.
 
+Para definir essa variável de ambiente, siga o passo a passo:
 
+1. Na tela inicial de pesquisa do Windows em pesquisar, digite "**Editar as Variável de Ambiente do Sistema**" e em seguida "**Variáveis de Ambiente**.<br/>
 
+![](https://cdn.discordapp.com/attachments/1135539100468924457/1243246194025693366/Captura_de_tela_2024-05-23_135506.png?ex=6650c6bf&is=664f753f&hm=4a7ef0532187022b05a0632c01cc44e8fd7f317b5bfe612c9c0e892be84fb386&)
 
+   
+2. No painel abra a seguinte opção "**Variável do Sistema**" e clique em "**Novo**" e crie uma nova Variável chamada "**UE4_ROOT**", e na parte de valor da variável coloca o caminho que vai encontrar o arquivo , como mostra a imagem.<code>C:\UnrealEngine\</code></li>
 
+![](https://cdn.discordapp.com/attachments/1135539100468924457/1243249596721926144/Variavel.png?ex=6650c9ea&is=664f786a&hm=abed284f00436c3254294f692640b43ae1e6139bee14668a0101eb93b3b4bb39&)
 
+3. Esse será o caminho da pasta de instalação.
+
+4. Aproveitando que está mexendo na variável de ambiente, verifique se todos os requisitos necessários estão dentro do PATH do do sistema.
+   ![](https://cdn.discordapp.com/attachments/1135539100468924457/1243249914855686204/Requisitos.png?ex=6650ca36&is=664f78b6&hm=a56d1d9cd7126bdad60707299020dd8fe7f4f72ce5939a54c0771ba314303d01&)
 
