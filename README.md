@@ -147,7 +147,7 @@ Para definir essa variável de ambiente, siga o passo a passo:
 
    
 2. No painel abra a seguinte opção "**Variável do Sistema**" e clique em "**Novo**" e crie uma nova Variável chamada "**UE4_ROOT**", e na parte de valor da variável coloca o caminho que vai encontrar o arquivo, como mostra a imagem.<code>C:\UnrealEngine\\</code></li> <br/>
-    ![](https://cdn.discordapp.com/attachments/1135539100468924457/1243249596721926144/Variavel.png?ex=6650c9ea&is=664f786a&hm=abed284f00436c3254294f692640b43ae1e6139bee14668a0101eb93b3b4bb39&)
+    ![](https://cdn.discordapp.com/attachments/1135539100468924457/1243249596721926144/Variavel.png?ex=6650c9ea&is=664f786a&hm=abed284f00436c3254294f692640b43ae1e6139bee14668a0101eb93b3b4bb39&) 
 3. Aproveitando que está mexendo na variável de ambiente, verifique se todos os requisitos necessários estão dentro do PATH do do sistema. <br/><br/>
 ![](https://cdn.discordapp.com/attachments/1135539100468924457/1243249914855686204/Requisitos.png?ex=6650ca36&is=664f78b6&hm=a56d1d9cd7126bdad60707299020dd8fe7f4f72ce5939a54c0771ba314303d01&)
 
