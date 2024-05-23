@@ -17,7 +17,8 @@ Caso precise de mais informação tem o [Documento do CARLA](https://carla.readt
       - [Unreal Engine](#unreal-engine)
 - [Segundo Passo: Construção do CARLA](#segundo-passo-constru%C3%A7%C3%A3o-do-carla)
 - [Clonar o repositório](#clonar-o-reposit%C3%B3rio)
--  [Obter os ativos](#obter-os-ativos)
+- [Obter os ativos](#obter-os-ativos)
+- [Definição da variável de ambiente da Unreal Engine](#defini%C3%A7%C3%A3o-da-vari%C3%A1vel-de-ambiente-da-unreal-engine)
 
 <br/>
 <br/>
@@ -133,6 +134,8 @@ Para poder enxergar comando para executar, a imagem mostra dea melhor forma para
 ![](https://cdn.discordapp.com/attachments/1135539100468924457/1243199452408320140/Update.png?ex=66509b36&is=664f49b6&hm=ffec85c1ddde212bf70b9b35ce68db1347db0695b1ed3f66df49e897420df030&)
 
 Esses ativos serão baixados e extraídos no local adequado se tiver o 7zip instalado corretamente
+
+# Definição da variável de ambiente da Unreal Engine
 
 
 
