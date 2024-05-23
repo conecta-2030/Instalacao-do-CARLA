@@ -16,6 +16,7 @@ Caso precise de mais informação tem o [Documento do CARLA](https://carla.readt
       - [Visual Studio 2019](#visual-studio-2019)
       - [Unreal Engine](#unreal-engine)
 - [Segundo Passo: Construção do CARLA](#segundo-passo-constru%C3%A7%C3%A3o-do-carla)
+- [Clonar o repositório]()
 
 <br/>
 <br/>
@@ -99,6 +100,8 @@ Ou se precisar, utilize a versão da documentação, caso ocorra algum erro, ent
 
   3. Assim que for compilado pela primeira vez, acesse a pasta **Unreal Engine** e procure pelo '*UE4Editor.exe*'. Caso não encontre siga esse caminho. <code>Engine\Binaries\Win64\UE4Editor.exe</code></li>
 
+<br/>
+
 |Importante
 :-------|
 Antes de dar inicio a segunda parte da instalção, é recomendado reiniciar o computador.
@@ -106,9 +109,20 @@ Antes de dar inicio a segunda parte da instalção, é recomendado reiniciar o c
 <br/>
 
 # Segundo Passo: Construção do CARLA
+## Clonar o repositório
 
-| [Repositório CARLA](https://github.com/carla-simulator/carla) 
------------ |
+| [Repositório CARLA](https://github.com/carla-simulator/carla)
+:-------------------------------------------------------------: |
+
+Caso queira escolher sua versão do CARLA, clique nesse repositório acima e terá acesso a todas as versões, no nosso caso utilizamos a versão 0.9.15.2 que acabou dando certo a instalação, e os erros que derem terá um tópico em específico.
+
+![](https://cdn.discordapp.com/attachments/1135539100468924457/1243188609834553404/Captura_de_tela_2024-05-23_095207.png?ex=6650911d&is=664f3f9d&hm=2b2387641c870aea1c5543a593d7180196c53f6eb06847960ecc5909cb950412&)
+
+Na imagem acima mostra aonde você pode estar pegando o link e clonando o repositório, e clone em um terminal seguindo o mesmo caminho **C:\\>** utilizando o seguinte comando:
+
+
+    git clone https://github.com/carla-simulator/carla.git
+
 
 
 
