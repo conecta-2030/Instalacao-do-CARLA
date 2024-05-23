@@ -16,7 +16,8 @@ Caso precise de mais informação tem o [Documento do CARLA](https://carla.readt
       - [Visual Studio 2019](#visual-studio-2019)
       - [Unreal Engine](#unreal-engine)
 - [Segundo Passo: Construção do CARLA](#segundo-passo-constru%C3%A7%C3%A3o-do-carla)
-- [Clonar o repositório]()
+- [Clonar o repositório](#clonar-o-reposit%C3%B3rio)
+-  [Obter os ativos](#obter-os-ativos)
 
 <br/>
 <br/>
@@ -102,7 +103,7 @@ Ou se precisar, utilize a versão da documentação, caso ocorra algum erro, ent
 
 <br/>
 
-|Importante
+|Importante |
 :-------|
 Antes de dar inicio a segunda parte da instalção, é recomendado reiniciar o computador.
 
@@ -120,10 +121,18 @@ Caso queira escolher sua versão do CARLA, clique nesse repositório acima e ter
 
 Na imagem acima mostra aonde você pode estar pegando o link e clonando o repositório, e clone em um terminal seguindo o mesmo caminho **C:\\>** utilizando o seguinte comando:
 
-
     git clone https://github.com/carla-simulator/carla.git
 
+# Obter os ativos
 
+Para ter a versão mais recente é importante obter os ativos atualizados para que não ocorra nenhum conflito na execuções futuras e poder trabalhar com as versões atuais do **CARLA**. Execute o seguinte comando dentro da pasta raiz para adquirir os ativos
+
+    Update.bat
+
+Para poder enxergar comando para executar, a imagem mostra dea melhor forma para visualizar.<br/>
+![](https://cdn.discordapp.com/attachments/1135539100468924457/1243199452408320140/Update.png?ex=66509b36&is=664f49b6&hm=ffec85c1ddde212bf70b9b35ce68db1347db0695b1ed3f66df49e897420df030&)
+
+Esses ativos serão baixados e extraídos no local adequado se tiver o 7zip instalado corretamente
 
 
 
