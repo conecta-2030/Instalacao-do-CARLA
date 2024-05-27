@@ -24,6 +24,7 @@ Caso precise de mais informação tem o [Documento do CARLA](https://carla.readt
   - [2. ERRO Ocorrido](#2-erro-ocorrido)
   - [3. Recompilação](#3-recompila%C3%A7%C3%A3o)
 - [Compilação do Servidor](#compila%C3%A7%C3%A3o-do-servidor)
+- [Primeiros Testes](#primeiros-testes)
 
 <br/>
 <br/>
@@ -205,6 +206,8 @@ Para a seguinte modifição, que no nosso caso deu certo a compilação sem nenh
 
 ![Correção](https://media.discordapp.net/attachments/1135539100468924457/1243196973180518470/Captura_de_tela_2024-05-09_175428.png?ex=66553627&is=6653e4a7&hm=53bab7ea95ad4cf06920c93e8016c9e0fdf239ad426cf1d93c0037f25d49987f&=&format=webp&quality=lossless&width=843&height=650)
 
+Se precisar acessar mais respostas entre nesse [guia](https://github.com/carla-simulator/carla/issues/6898) ou se for o caso ter mais dúvidas entre no grupo do [Discord](https://discord.gg/XpYqmjkJjC), la possui vários canais e tira dúvidas importantes.
+
 > [!IMPORTANT]
 > Assim que fizer isso, reinicie novamente o computador e refaça a compilação do make PythonAPI, dentro da pasta raiz do CARLA.
 
@@ -235,5 +238,10 @@ Dentro do **x64** e na pasta raiz CARLA, espere ele  compilar até o fim, abrind
 
 Essa primeira compilação é demorada, mas não se preocupe, depois de feito uma vez nas próximas serão mais rapidos para abrir o servidor. Agora você ja pode estar realizando suas primeiras simulações
 
+# Primeiros testes
 
+Em um **prompt de comando**, no **x64** ou dentro do **Visual Code** com o serviodr aberto dado **Play** realize os primeiros testes de simulação:
+
+**C:\carla\PythonAPI\examples>** python generate_trafic.py
+**C:\carla\PythonAPI\examples>** python manualstering_controll
 
