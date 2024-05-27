@@ -21,6 +21,7 @@ Caso precise de mais informação tem o [Documento do CARLA](https://carla.readt
 - [Definição da variável de ambiente da Unreal Engine](#defini%C3%A7%C3%A3o-da-vari%C3%A1vel-de-ambiente-da-unreal-engine)
 - [Contrução do CARLA](#constru%C3%A7%C3%A3o-do-carla)
   - [Compilação do Cliente](#1-compila%C3%A7%C3%A3o-do-cliente-da-pythonapi)
+  - [ERRO Ocorrido](#erro-ocorrido)
 
 <br/>
 <br/>
@@ -163,7 +164,13 @@ Essa parte seria uma das mais importantes para realizar a construção do CARLA:
 
 Existem duas partes da compilação do CARLA, a do **cliente** e a do **servidor**.
 
-Antes de realizar a instalação do CARLA, verfique se as pasta selecionadas nessa imagem, estão iguais as que você fez, se não tiver realize o processos anteriores [Unreal Engine](#unreal-engine) e do [CARLA](#segundo-passo-constru%C3%A7%C3%A3o-do-carla)
+Antes de realizar a instalação do CARLA, verfique se as pasta selecionadas nessa imagem, estão iguais as que você fez, se não tiver realize o processos anteriores [Unreal Engine](#unreal-engine) e do [CARLA](#segundo-passo-constru%C3%A7%C3%A3o-do-carla), é importante tudo estar dentro do **Sistema Principal** **C:\\**
+
+![Pastas dos arquivos](https://cdn.discordapp.com/attachments/1135539100468924457/1244633157567774750/image.png?ex=6655d274&is=665480f4&hm=786506dba6977cb3e3ca5796c5a487afcd8b7a78ffd9b0676614c902ae51eae5&)
+
+<br/>
+
+![Terminal](https://cdn.discordapp.com/attachments/1135539100468924457/1244633372849078352/image.png?ex=6655d2a8&is=66548128&hm=5c3e7e26aed8100b6b886e6148011b9c463e96204082c2bf08fc20352ae8227a&)
 
 ## 1. Compilação do Cliente da PythonAPI
 
@@ -172,5 +179,8 @@ O cliente PythonAPI concede o controle das simulações, essa parte da compilaç
 Este comando irá compilar o cliente PythonAPI:
 
      make PythonAPI
+
+
+## ERRO Ocorrido
 
 
