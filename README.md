@@ -23,6 +23,7 @@ Caso precise de mais informação tem o [Documento do CARLA](https://carla.readt
   - [1. Compilação do Cliente](#1-compila%C3%A7%C3%A3o-do-cliente-da-pythonapi)
   - [2. ERRO Ocorrido](#2-erro-ocorrido)
   - [3. Recompilação](#3-recompila%C3%A7%C3%A3o)
+- [Compilação do Servidor](#compila%C3%A7%C3%A3o-do-servidor)
 
 <br/>
 <br/>
@@ -211,8 +212,28 @@ Para a seguinte modifição, que no nosso caso deu certo a compilação sem nenh
 
 ## 3. Recompilação
 
-Assim que realizar essa correção realize a compilação do *make PythonAPI*, a seguinte mensagem deve surgir:
+Assim que realizar essa correção realize a compilação do *make PythonAPI*, a seguinte mensagem deve surgir depois de terminado a compilação:
 
 ![Acerto](https://media.discordapp.net/attachments/1135539100468924457/1243196974333689988/Captura_de_tela_2024-05-09_171303.png?ex=66553628&is=6653e4a8&hm=c5a63b23e256328d916203c837f423dac11a331ac310a18954f15a70f371fc52&=&format=webp&quality=lossless&width=1346&height=662)
+
+
+# Compilação do Servidor
+
+Assim que foi compilado o PythonAPI, dentro da pasta raiz CARLA, vai ser compiladop o servidor, aonde vai ser realizado alterações de mapas, veículos e outros modelos. Dentro dele abrirá o servidor na Unreal Engine 4 Editor, com o ambiente CARLA.
+
+Para realizar essa compilação execute o seguinte comando:
+
+      make launch
+
+Dentro do **x64** e na pasta raiz CARLA, espere ele  compilar até o fim, abrindo a *UE4Editor*:
+
+![Compilar o servidor](https://cdn.discordapp.com/attachments/1168971001141403820/1238235014056116397/rn_image_picker_lib_temp_cb56f25f-880c-4023-83e0-696192d79b44.jpg?ex=66559df8&is=66544c78&hm=f4129e6bf4148d0411fa00e31167cfa13c8807cae550bdafcefbcc66fe842f88&)
+
+<br/>
+
+![Abrindo o CARLA](https://cdn.discordapp.com/attachments/1168971001141403820/1238236048816078858/rn_image_picker_lib_temp_07660209-c57f-445b-b841-90e36d0578b0.jpg?ex=66559eef&is=66544d6f&hm=d9d5c7082cb26c8bcf2fe420c0e22797495e6b618333c997a8bb7cbe25d973d5&)
+
+Essa primeira compilação é demorada, mas não se preocupe, depois de feito uma vez nas próximas serão mais rapidos para abrir o servidor. Agora você ja pode estar realizando suas primeiras simulações
+
 
 
