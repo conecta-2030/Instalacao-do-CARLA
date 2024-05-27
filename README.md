@@ -20,8 +20,8 @@ Caso precise de mais informação tem o [Documento do CARLA](https://carla.readt
 - [Obter os ativos](#obter-os-ativos)
 - [Definição da variável de ambiente da Unreal Engine](#defini%C3%A7%C3%A3o-da-vari%C3%A1vel-de-ambiente-da-unreal-engine)
 - [Contrução do CARLA](#constru%C3%A7%C3%A3o-do-carla)
-  - [Compilação do Cliente](#1-compila%C3%A7%C3%A3o-do-cliente-da-pythonapi)
-  - [ERRO Ocorrido](#erro-ocorrido)
+  - [1. Compilação do Cliente](#1-compila%C3%A7%C3%A3o-do-cliente-da-pythonapi)
+  - [2. ERRO Ocorrido](#erro-ocorrido)
 
 <br/>
 <br/>
@@ -181,6 +181,11 @@ Este comando irá compilar o cliente PythonAPI:
      make PythonAPI
 
 
-## ERRO Ocorrido
+## 2. ERRO Ocorrido
 
+Assim que o PythonAPI termina de compilar a primeira vez ocorre um erro que não especifica na documentação e estarei adcionando nesse tópico. Este erro referece que o não está conseguindo compilar o arquivo, pois não está encontrando o diretório no caminho especificado, acompanhe a seguinte imagem:
+
+![ERRO OSM2ODR](https://media.discordapp.net/attachments/1135539100468924457/1243196973515931760/Captura_de_tela_2024-05-09_104201.png?ex=66553627&is=6653e4a7&hm=f75aedd74eea5f6c740b1012e978dc1344e0093bdee867d15bf47b7c88d1ae8a&=&format=webp&quality=lossless&width=1342&height=650)
+
+Atraves desse erro, foi realizado o seguinte processo 
 
