@@ -22,6 +22,7 @@ Caso precise de mais informação tem o [Documento do CARLA](https://carla.readt
 - [Contrução do CARLA](#constru%C3%A7%C3%A3o-do-carla)
   - [1. Compilação do Cliente](#1-compila%C3%A7%C3%A3o-do-cliente-da-pythonapi)
   - [2. ERRO Ocorrido](#2-erro-ocorrido)
+  - [3. Recompilação](#3-recompila%C3%A7%C3%A3o)
 
 <br/>
 <br/>
@@ -187,5 +188,30 @@ Assim que o PythonAPI termina de compilar a primeira vez ocorre um erro que não
 
 ![ERRO OSM2ODR](https://media.discordapp.net/attachments/1135539100468924457/1243196973515931760/Captura_de_tela_2024-05-09_104201.png?ex=66553627&is=6653e4a7&hm=f75aedd74eea5f6c740b1012e978dc1344e0093bdee867d15bf47b7c88d1ae8a&=&format=webp&quality=lossless&width=1342&height=650)
 
-Atraves desse erro, foi realizado o seguinte processo 
+Atraves desse erro, foi realizado o seguinte processo:
+
+- Vai haver uma seguinte correção no código, que seria no arquivo *BuildOSM2ODR*, na seguinte imagem :
+
+![Mudança](https://media.discordapp.net/attachments/1135539100468924457/1243196974883274822/Captura_de_tela_2024-05-09_175341.png?ex=66553628&is=6653e4a8&hm=5ca1679937d405516e7ce455e9f44b921768c9b26e6d5da7edd55bf90a95584d&=&format=webp&quality=lossless&width=1072&height=650)
+
+- Nesse processo abra o arquivo para editar no VS Code, e mudar a seguinte linha do código <code>.\Util\BuildTools\BuildOSM2ODR.bat</code></li>
+
+*cmake -G %GENERATOR %PLATFORM%^*
+
+Para a seguinte modifição, que no nosso caso deu certo a compilação sem nenhum erro:
+
+      cmake -G %GENERATOR% -A x64^
+
+![Correção](https://media.discordapp.net/attachments/1135539100468924457/1243196973180518470/Captura_de_tela_2024-05-09_175428.png?ex=66553627&is=6653e4a7&hm=53bab7ea95ad4cf06920c93e8016c9e0fdf239ad426cf1d93c0037f25d49987f&=&format=webp&quality=lossless&width=843&height=650)
+
+> [!IMPORTANT]
+> Assim que fizer isso, reinicie novamente o computador e refaça a compilação do make PythonAPI, dentro da pasta raiz do CARLA.
+
+
+## 3. Recompilação
+
+Assim que realizar essa correção realize a compilação do *make PythonAPI*, a seguinte mensagem deve surgir:
+
+![Acerto](https://media.discordapp.net/attachments/1135539100468924457/1243196974333689988/Captura_de_tela_2024-05-09_171303.png?ex=66553628&is=6653e4a8&hm=c5a63b23e256328d916203c837f423dac11a331ac310a18954f15a70f371fc52&=&format=webp&quality=lossless&width=1346&height=662)
+
 
