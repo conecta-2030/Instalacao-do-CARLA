@@ -242,6 +242,14 @@ Essa primeira compilação é demorada, mas não se preocupe, depois de feito um
 
 Em um **prompt de comando**, no **x64** ou dentro do **Visual Code** com o serviodr aberto dado **Play** realize os primeiros testes de simulação:
 
-**C:\carla\PythonAPI\examples>** python generate_trafic.py
-**C:\carla\PythonAPI\examples>** python manualstering_controll
+**C:\carla\PythonAPI\examples>** python generate_trafic.py <br/>
 
+Nesse comando você pode realizar a geração de tráfegos de pedestres e veículos.
+
+**C:\carla\PythonAPI\examples>** python manual_control_steeringwheel.py <br/>
+
+A espécificação desse comando, realiza como dirigir com o Volante G29 Logitech
+
+**C:\carla\PythonAPI\examples>** python automatic_control.py <br/>
+
+Dando esse comando mostra dentro do servidor o veículo pilotando automaticamnte.
