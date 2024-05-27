@@ -20,6 +20,7 @@ Caso precise de mais informação tem o [Documento do CARLA](https://carla.readt
 - [Obter os ativos](#obter-os-ativos)
 - [Definição da variável de ambiente da Unreal Engine](#defini%C3%A7%C3%A3o-da-vari%C3%A1vel-de-ambiente-da-unreal-engine)
 - [Contrução do CARLA](#constru%C3%A7%C3%A3o-do-carla)
+  - [Compilação do Cliente](#1-compila%C3%A7%C3%A3o-do-cliente)
 
 <br/>
 <br/>
@@ -106,7 +107,7 @@ Ou se precisar, utilize a versão da documentação, caso ocorra algum erro, ent
 <br/>
 
 > [!IMPORTANT]
-> Antes de dar inicio a segunda parte da instalção, é recomendado reiniciar o computador.
+> Antes de dar inicio a segunda parte da instalação, é recomendado reiniciar o computador.
 
 <br/>
 
@@ -120,13 +121,15 @@ Caso queira escolher sua versão do CARLA, clique nesse repositório acima e ter
 
 ![](https://cdn.discordapp.com/attachments/1135539100468924457/1243188609834553404/Captura_de_tela_2024-05-23_095207.png?ex=6650911d&is=664f3f9d&hm=2b2387641c870aea1c5543a593d7180196c53f6eb06847960ecc5909cb950412&)
 
-Na imagem acima mostra aonde você pode estar pegando o link e clonando o repositório, e clone em um terminal seguindo o mesmo caminho **C:\\carla** utilizando o seguinte comando:
+Na imagem acima mostra aonde você pode estar pegando o link e clonando o repositório, e clone em um terminal o repositório e seguindo o mesmo caminho deixando dessa maneira assim que concluir a instalação **C:\\carla** utilizando o seguinte comando:
 
     git clone https://github.com/carla-simulator/carla.git
 
+![Clonando o Repositório](https://cdn.discordapp.com/attachments/1135539100468924457/1244635813967429632/image.png?ex=6655d4ee&is=6654836e&hm=5d2d1606eebf258c78bc9cc6511236776dfc0a97115d101f6d8d5d59120f1d88&)
+
 # Obter os ativos
 
-Para ter a versão mais recente é importante obter os ativos atualizados para que não ocorra nenhum conflito na execuções futuras e poder trabalhar com as versões atuais do **CARLA**. Execute o seguinte comando dentro da pasta raiz para adquirir os ativos
+Para ter a versão mais recente é importante obter os ativos atualizados para que não ocorra nenhum conflito na execuções futuras e poder trabalhar com as versões atuais do **CARLA**. Execute o seguinte comando dentro da pasta raiz CARLA para adquirir os ativos
 
     Update.bat
 
@@ -152,4 +155,15 @@ Para definir essa variável de ambiente, siga o passo a passo:
 ![](https://cdn.discordapp.com/attachments/1135539100468924457/1243249914855686204/Requisitos.png?ex=6650ca36&is=664f78b6&hm=a56d1d9cd7126bdad60707299020dd8fe7f4f72ce5939a54c0771ba314303d01&)
 
 # Construção do CARLA
+
+Essa parte seria uma das mais importantes para realizar a construção do CARLA:
+
+- Todos os comandos dever ser executados dentro da pasta raiz do CARLA, para conseguir realizar a compilação com sucesso:
+- É necessário realizar os comandos dentro do **x64 Native tools command prompt for vs 2019**, escreva em **Pesquisar** <code>x64</code></li> e vai aparecer, não utilize o **x86_64**.
+
+Existem duas partes da compilação do CARLA, a do **cliente** e a do **servidor**
+
+## 1. Compilação do Cliente
+
+
 
