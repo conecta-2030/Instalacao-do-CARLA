@@ -161,9 +161,16 @@ Essa parte seria uma das mais importantes para realizar a construção do CARLA:
 - Todos os comandos dever ser executados dentro da pasta raiz do CARLA, para conseguir realizar a compilação com sucesso:
 - É necessário realizar os comandos dentro do **x64 Native tools command prompt for vs 2019**, escreva em **Pesquisar** <code>x64</code></li> e vai aparecer, não utilize o **x86_64**.
 
-Existem duas partes da compilação do CARLA, a do **cliente** e a do **servidor**
+Existem duas partes da compilação do CARLA, a do **cliente** e a do **servidor**.
+
+Antes de realizar a instalação do CARLA, verfique se as pasta selecionadas nessa imagem, estão iguais as que você fez, se não tiver realize o processos anteriores [Unreal Engine](#unreal-engine) e do [CARLA](#segundo-passo-constru%C3%A7%C3%A3o-do-carla)
 
 ## 1. Compilação do Cliente da PythonAPI
 
+O cliente PythonAPI concede o controle das simulações, essa parte da compilação é realizada apenas uma vez por isso é a mais demorada, sendo essencial que compile corretamente, e que todos as dependências estejam instaladas de forma correta, então verifique antes todos os passos anteriores se estão no caminho certo. Assim que for concluido a compilação, poderá interagir com qualquer scripts para ter a interação com as simulações.
+
+Este comando irá compilar o cliente PythonAPI:
+
+     make PythonAPI
 
 
