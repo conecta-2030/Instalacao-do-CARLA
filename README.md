@@ -207,6 +207,7 @@ Para a seguinte modifição, que no nosso caso deu certo a compilação sem nenh
 > [!IMPORTANT]
 > Assim que fizer isso, reinicie novamente o computador e refaça a compilação do make PythonAPI, dentro da pasta raiz do CARLA.
 
+<br/>
 
 ## 3. Recompilação
 
